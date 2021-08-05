@@ -12,12 +12,12 @@ const {
 // Default parameters
 const DefaultThreshold = 0.3;
 const DefaultTopN = 3;
-const DefaultNoAnswer = 'No QnAMaker answers found.';
+const DefaultNoAnswer = 'Nenhuma resposta encontrada.';
 
 // Card parameters
-const DefaultCardTitle = 'Did you mean:';
-const DefaultCardNoMatchText = 'None of the above.';
-const DefaultCardNoMatchResponse = 'Thanks for the feedback.';
+const DefaultCardTitle = 'Você quis dizer:';
+const DefaultCardNoMatchText = 'Nenhuma das acima.';
+const DefaultCardNoMatchResponse = 'Obrigado pelo feedback.';
 
 /// QnA Maker dialog.
 const QNAMAKER_BASE_DIALOG = 'qnamaker-base-dailog';
